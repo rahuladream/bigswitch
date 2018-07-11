@@ -1,0 +1,24 @@
+default: &default
+   adapter: postgresql
+   encoding: unicode
+  
+development:
+   adapter: postgresql
+   encoding: unicode
+   database: bigswitch_development
+   username: rahuladream
+   password: singham
+
+test:
+   adapter: postgresql
+   encoding: unicode
+   database: bigswitch_test
+   username: rahuladream
+   password: singham
+ 
+production:
+   adapter: postgresql
+   encoding: unicode
+   database: bigswitch_production
+   username: rubyuser
+   password: singham
